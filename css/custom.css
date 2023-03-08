@@ -1,0 +1,308 @@
+.cuerpo{
+    background-color: rgb(6, 25, 59);
+}
+
+/*--------------------Header---------------------------*/
+.logo{
+    width: 3rem;
+}
+
+.menu{
+    background-color: rgb(6, 25, 59);
+    border-bottom: 1px solid white;
+}
+
+
+
+
+
+/*--------------------Formularios de logeo y busqueda-----------------------*/
+
+
+/*------------formulario de login--------------*/
+.login{
+    background-color: rgb(6, 25, 59);
+    border-color: white;
+    color: white;
+    width: 20vw;
+}
+
+/*separo el boton de iniciar sesion del buscador*/
+.boton-login{
+    margin-right: 2vw;
+}
+
+/*estilos del formulario*/
+.login form{
+    padding: 1vh 1vw;
+}
+
+.login input{
+    padding: 0.2rem 0;
+}
+
+.login input, .login label{
+    padding-left: 0.6rem;
+}
+
+.login li{
+    margin-bottom: 1.5vh;
+}
+
+.login li:last-child{
+    margin: 0;
+}
+
+.login .botones{
+    width: 100%;
+}
+
+
+/*boton para buscar o logearse*/
+.botones{
+    color: white;
+    border-color: white;
+}
+
+.botones:hover{
+    color: white;
+    background-color: rgba(128, 128, 128, 0.501);
+}
+
+
+/*---------------------Cabecero----------------------------*/
+
+header{
+    height: 35rem;
+    background: url("../img/fondo-header.jpg");
+    background-size: cover;
+    text-align: justify;
+}
+
+header div{
+    padding-top: 10rem;
+}
+
+header .dropdown{
+    padding: 0;
+}
+
+header span{
+    text-align: center;
+    display: block;
+    margin-top: 2rem;
+}
+
+header a{
+    color: white; 
+    font-size: 1.5rem;   
+}
+
+header a:hover{
+    color: rgb(6, 25, 59);
+}
+
+
+/*-------------------Secion central-------------------------*/
+/*---------modos de juego---------*/
+.modos-juego {
+    color: white;
+    padding-bottom: 5rem;
+    border-top: 1rem solid orange;
+    border-bottom: 1rem solid orange;
+}
+
+.modos-juego article {
+    transition: all 0.3s ease-in-out;
+}
+
+.modos-juego article:hover{
+    transform: scale(1.1);
+}
+
+
+.modos-juego div{
+    height: 100%;
+}
+
+
+
+.modos-juego .card{
+    color: rgb(6, 25, 59);
+    background-color: orange;
+    width: 20rem;
+    height: 25rem;
+    margin: 2rem .5rem;
+    padding: 0;
+}
+
+/*para alinear los botones del final*/
+.modos-juego .card-body{
+    display: grid;
+    text-align: justify;
+}
+.modos-juego .botones{
+    border-color: rgb(6, 25, 59);
+    color: rgb(6, 25, 59);
+    align-self: flex-end;
+    width: 40%;
+}
+
+.modos-juego .botones:hover{
+    border-color: rgb(6, 25, 59);
+    color: white;
+    background-color: rgb(6, 25, 59);
+}
+
+@media screen and (max-width: 768px){
+    .modos-juego .card{
+        width: 25rem;
+        height: 28rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .modos-juego .card{
+        width: 29rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 1250px){
+    .modos-juego .card{
+        width: 18rem;
+        height: 24rem;
+    }
+}
+
+
+
+
+
+/*----------Inscribirse---------*/
+
+.competicion{
+    height: 40rem;
+    background: url("../img/fondo-competicion.jpg");
+    background-size: cover;
+    background-position: 50% 60%;
+    color: white;
+}
+
+.competicion div{
+    height: 100%;
+}
+
+.competicion div div{
+    background-color: rgba(128, 128, 128, 0.253);
+    height: 100%;
+    border-left: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.competicion div div *{
+    margin-top: 2rem;
+}
+
+.competicion .botones{
+    width: 40%;
+}
+
+
+/*----------------------Footer--------------------*/
+
+footer{
+    height: 25vh;
+}
+
+.info-contacto{
+    list-style: none;
+}
+
+.info-contacto li{
+    margin: 1rem auto;
+}
+
+footer i{
+    color: white;
+    font-size: 3rem;
+}
+
+footer i:hover{
+    color: grey
+}
+
+
+
+/*--------------------Diseños----------------------*/
+.carrusel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.carousel{
+    width: 75%;
+}
+
+.nissan{
+    color:black
+}
+
+.nissan .botones{
+    color: black;
+}
+
+@media screen and (max-width: 992px){
+    .carousel{
+        width: 100%;
+    }
+}
+
+.cuerpo-disenio footer{
+    border-top: 2px solid white;
+    margin-bottom: 0;
+}
+
+/*-----------------------Competicion----------------------------------------*/
+
+.formulario{
+    width: 55vw;
+    margin: 15rem auto 10rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+    background-color: rgb(6, 25, 59);
+}
+
+.formulario *{
+    margin: 0.5rem;
+}
+
+@media screen and (max-width: 576px){
+    .formulario{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .formulario{
+        width: 70vw;
+    }
+}
+
+.cuerpo-competicion{
+    background: url("../img/cuerpo-competicion.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.cuerpo-competicion footer div, .cuerpo-competicion footer{
+    background-color: rgb(6, 25, 59);
+    padding-bottom: 0;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket league fanpage</title>
+
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="cuerpo">
+
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top menu">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img class="logo" src="img/logo.webp">
+        <span>Rocket league</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">PRINCIPAL</a></li>
+          <li class="nav-item"><a class="nav-link" href="disenios.html">DISEÑOS</a></li>
+          <li class="nav-item"><a class="nav-link" href="competicion.html">COMPETICIÓN</a></li>
+        </ul>
+
+        <!-- Formulario de Logeo-->
+        <hr class="text-white-50">
+        <i class="bi bi-person-fill text-white"></i>
+        <ul class="navbar-nav boton-login">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="submenu" role="button" data-bs-toggle="dropdown" href="#">
+              Iniciar sesión
+            </a>
+            <ul class="dropdown-menu login">
+              <form>
+                <li class="nav-item form-group">
+                  <label for="Usuario">Usuario</label>
+                  <input type="text" class="nav-item form-control" placeholder="Usuario">
+                </li>
+                <li class="nav-item form-group">
+                  <label for="Clave">Clave</label>
+                  <input type="password" class="nav-item form-control" placeholder="Clave">
+
+                <li class="nav-item form-check">
+                  <input type="checkbox" class="nav-item form-check-input" id="recuerdame">
+                  <label class="form-check-label" for="recuerdame">
+                    Recuérdame
+                  </label>
+                </li>
+                <li class="nav-item"><button type="submit" class="btn botones">Entrar</button></li>
+              </form>
+            </ul>
+          </li>
+        </ul>
+        <!-- Barra de Búsqueda -->
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn botones" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!----------------------------Header---------------------------------------->
+  <header class="container-fluid">
+    <div class="row text-white justify-content-center">
+      <h1 class="col-12 text-center">Rocket League</h1>
+      <p class="col-lg-6 col-md-8 col-sm-10 mt-5">
+        En Rocket League, los jugadores pueden disfrutar de una experiencia de juego muy dinámica y emocionante. Los vehículos están equipados con cohetes que les permiten acelerar a velocidades impresionantes y realizar saltos y giros en el aire.
+        Los partidos se juegan en campos de juego cerrados, que están diseñados para proporcionar una experiencia de juego intensa y frenética. Los jugadores pueden utilizar las paredes y techos para realizar acrobacias aéreas y golpear la pelota desde diferentes ángulos.
+        <span>A que esperas, descargalo <a href="#">aqui</a></span>
+      </p>
+    </div>
+  </header>
+
+
+  <!----------------------------Modos de juego---------------------------------------->
+
+  <section class="modos-juego container-fluid">
+    <div class="row justify-content-around">
+      <h1 class="col-12 text-center m-2">Modos de Juego</h1>
+
+      <article class="col-xl-3 col-md-6 col-sm-12 card">
+        <img src="img/modo-futbol.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Futbol</h5>
+          <p class="card-text">El modo clasico de rocket league ya que se inspiró del footbal para crear todo su mundo.</p>
+          <a href="#" class="btn botones">Saber más</a>
+        </div>
+      </article>
+
+      <article class="col-xl-3 col-md-6 col-sm-12 card">
+        <img src="img/modo-baloncesto.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Hoops</h5>
+          <p class="card-text">Siendo un juego competitivo no podia faltar el baloncesto, uno de los deportes rey en la actualidad.</p>
+          <a href="#" class="btn botones">Saber más</a>
+        </div>
+      </article>
+
+      <article class="col-xl-3 col-md-6 col-sm-12 card">
+        <img src="img/modo-dropshot.webp" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Dropshot</h5>
+          <p class="card-text">Un modo de juego trepidante en el que no hay porteria, ya que tienes que crearla tu.</p>
+          <a href="#" class="btn botones">Saber más</a>
+        </div>
+      </article>
+
+      <article class="col-xl-3 col-md-6 col-sm-12 card">
+        <img src="img/modo-SnowDay.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Snow Day</h5>
+          <p class="card-text">Con modos como futbol o baloncesto no podia faltar el hockey, el deporte mas popular por las tierrar del norte.</p>
+          <a href="#" class="btn botones">Saber más</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-------------------------------------Competicion----------------------------------------------->
+
+  <section class="competicion container-fluid">
+    <div class="row justify-content-end">
+        <div class="col-lg-4">
+        <h1>¿Quieres dar el salto al terreno profesional?</h1>
+        <h3>¡Unete a la liga RLCS!</h3>
+        <h5>Solo tienes que rellenar un par de datos y estarás listo para subir de escalon</h5>
+        <a href="competicion.html" class="btn botones">Inscribirse</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!--------------------------------------Footer--------------------------------------------------->
+  <footer class="container-fluid">
+    <div class="row justify-content-center text-center text-white mt-3">
+
+      <div class="col-lg-4 col-md-6">
+        <h2>Informacion de contacto</h2>
+
+        <div class="row justify-content-center">
+          <div class="col-6">
+            <ul class="info-contacto">
+              <li>Telefono</li>
+              <li>Correo</li>
+              <li>Direccion</li>
+            </ul>
+          </div>
+
+          <div class="col-6">
+            <ul class="info-contacto">
+              <li>642 475 224</li>
+              <li>info@rocketleague.org</li>
+              <li>Downtown, San Diego, CA 92101, US</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <h2>Redes sociales</h2>
+        <div class="row justify-content-center">
+            <a href="#" class="col-sm-3 col-md-6 col-lg-6 col-xl-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="col-sm-3 col-md-6 col-lg-6 col-xl-3"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="col-sm-3 col-md-6 col-lg-6 col-xl-3"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="col-sm-3 col-md-6 col-lg-6 col-xl-3"><i class="bi bi-facebook"></i></a>
+        </div>
+    </div>
+
+    </div>
+  </footer>
+
+
+  <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
